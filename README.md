@@ -29,7 +29,7 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
 ```
 
-### Part 1: Resampling (Over and Under) Models to Predict Credit Risk
+### Part 1: Resampling (Over and Under) models to Predict Credit Risk
 #### 1-A: Oversample the data using the naive Random Oversampling algorithm.
 ![Part 1a](https://user-images.githubusercontent.com/89284280/147179346-8d2f12c1-f3ab-4fd7-93f6-31746801e233.jpg)
 
@@ -39,8 +39,17 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
 #### 1-C: Undersample the data using the Cluster Centroids algorithm.
 ![Part 1c](https://user-images.githubusercontent.com/89284280/147179566-3afc1109-d674-41e9-9404-db2fa70d2a99.jpg)
 
-### Part 2: Use a combinatorial approach of over- and undersampling
+### Part 2: Use a combinatorial approach of over- and undersampling to Predict Credit Risk
 #### Resample the data using the SMOTEENN algorithm
 ![Part 2](https://user-images.githubusercontent.com/89284280/147179900-effcfd60-681a-43cb-b35a-94dc9634afb3.jpg)
 
-### Part 2: Use a combinatorial approach of over- and undersampling
+### Part 3: Use Ensemble Classifiers to Predict Credit Risk
+#### 3-A: Using ```BalancedRandomForestClassifier``` Model
+![Part 3a](https://user-images.githubusercontent.com/89284280/147180785-ab352c5e-f629-4ce1-9d33-9b8414776f85.jpg)
+
+#### 3-B Using ```EasyEnsembleClassifier``` Model
+![Part 3b](https://user-images.githubusercontent.com/89284280/147180796-56ea8ef3-84b6-40e2-96be-2c0b3c9f4be0.jpg)
+
+## Results
+### Balanced Accuracy Score
+
