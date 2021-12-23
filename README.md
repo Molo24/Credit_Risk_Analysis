@@ -9,7 +9,7 @@ Tools used: Python, Jupyter Notebook, ```imbalanced-learn``` Python libary and t
 
 ## Analysis
 ### Data Preparation
-Using ``imbalanced-learn``` and ```scikit-learn``` libraies to evaluate three machine learning libraries by resampling to determine best at predicting credit risk.
+Using ```imbalanced-learn``` and ```scikit-learn``` libraies to evaluate three machine learning libraries by resampling to determine best at predicting credit risk.
 
 Prior to any analysis beginning, the data set must be prepared. This was done using Panda Dataframes by splitting the data into separate Training and Testing dataframes.
 ```
@@ -51,5 +51,15 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
 ![Part 3b](https://user-images.githubusercontent.com/89284280/147180796-56ea8ef3-84b6-40e2-96be-2c0b3c9f4be0.jpg)
 
 ## Results
-### Balanced Accuracy Score
 
+|    | Random Oversampling | SMOTE | Cluster Centroids | SMOTEENN | BalancedRandomForestClassifier | EasyEnsembleClassifier |
+|----|---------------------|-------|-------------------|----------|--------------------------------|------------------------|
+|Balanced Accuracy Score|0.638|0.661|0.544|0.649|0.784|0.933|
+|Precision (high_risk)|0.01|0.01|0.01|0.01|0.03|0.09|
+|Precision (low_risk)|1.00|1.00|1.00|1.00|1.00|1.00|
+|Recall (high_risk)|0.66|0.63|0.69|0.72|0.69|0.92|
+|Recall (low_risk)|0.61|0.69|0.40|0.57|0.88|0.94|
+
+<br>
+
+## Summary
