@@ -69,7 +69,7 @@ The EasyEnsembleClassifier had the highest accuracy at 93.3%
 ### Precision
 Precision evaluates the reliability of a positive outcome. A high precision is indicative of a low amount of false positives.
 
-The EasyEnsembleClassifier had the highest precision for the ```high_risk``` group, albei incredibly low and not much difference with the other models. Further, the precision of the ```low_risk``` models were all the same. 
+The EasyEnsembleClassifier had the highest precision for the ```high_risk``` group, albeit incredibly low and with very little difference between the models. Further, the precision of the ```low_risk``` models were all the same. 
 
 ### Recall
 Recall evaluates the classifier and whether or not it can find all the positive samples. In other words, a large number of false negatives is indicative of a low recall.
