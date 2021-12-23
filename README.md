@@ -39,5 +39,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
 #### 1-C: Undersample the data using the Cluster Centroids algorithm.
 ![Part 1c](https://user-images.githubusercontent.com/89284280/147179566-3afc1109-d674-41e9-9404-db2fa70d2a99.jpg)
 
+### Part 2: Use a combinatorial approach of over- and undersampling
+#### Resample the data using the SMOTEENN algorithm
+![Part 2](https://user-images.githubusercontent.com/89284280/147179900-effcfd60-681a-43cb-b35a-94dc9634afb3.jpg)
 
-
+### Part 2: Use a combinatorial approach of over- and undersampling
