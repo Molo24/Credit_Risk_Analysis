@@ -63,3 +63,20 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
 <br>
 
 ## Summary
+### Accuracy
+Accuracy considers how often the classifier is correct in the model.
+
+The EasyEnsembleClassifier had the highest accuracy at 93.3%
+
+### Precision
+Precision evaluates the reliability of a positive outcome. A high precision is indicative of a low amount of false positives.
+
+The EasyEnsembleClassifier had the highest precision for the ```high_risk``` group, albeit not a drastic difference between the models. Further, the precision of the ```low_risk``` models were all the same. 
+
+### Recall
+Recall evaluates the classifier and whether or not it can find all the positive samples. In other words, a large number of false negatives is indicative of a low recall.
+
+The EasyEnsembleClassifier had the highest recall for both ```high_risk``` and ```low_risk``` groups.
+
+### Overall
+The EasyEnsembleClassifier did the best job at evaluating credit risk of the applicants in the dataset.
